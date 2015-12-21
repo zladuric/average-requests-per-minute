@@ -1,0 +1,32 @@
+{
+  "name": "average-requests-per-minute",
+  "description": "A simple stats middleware for Express.js servers",
+  "version": "0.1.0",
+  "author": "Zlatko Duric <zladuric@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "express",
+    "res",
+    "per minute",
+    "requests per minute",
+    "average requests per minute"
+  ],
+  "repository": "zladuric/average-requets-per-minute",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "supertest": "1.1.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
